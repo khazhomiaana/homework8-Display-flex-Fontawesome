@@ -1,3 +1,9 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 /*header styles*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 .bg-header {
@@ -11,8 +17,11 @@
 }
 
 .navigation {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-around;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
 }
 
 .logo {
@@ -31,6 +40,8 @@
 }
 
 .nav-ul {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 	margin-top: 70px;
 	margin-right: 15px;
@@ -44,7 +55,9 @@ li {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	    -ms-transform: translate(-50%,-50%);
+	        transform: translate(-50%,-50%);
 	font-size: 100px;
 	color: #FFFFFF;
 	font-family: 'Lato', sans-serif;
@@ -70,12 +83,23 @@ li {
 .left-block {
 	width: 640px;
 	height: 601px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 }
 .block-wraper {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
 }
 
@@ -102,9 +126,15 @@ li {
 	background-color: #325DFF;
 	border-radius: 36px;
 	letter-spacing: 4.2px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 }
 
 /*.text-wraper {
@@ -145,23 +175,40 @@ li {
 	width: 371px;
 	height: 374px;
 	background-color: white;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	border-style: solid;
 	border-color: #CECECE;
 	border-width: 0.5px;
 }
 
 .line-1 {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 
 }
 .line-2 {
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: space-between;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	margin-top: 30px;
 
 }
@@ -171,9 +218,15 @@ li {
 	height: 88px;
 	background-color: #325DFF;
 	border-radius: 50px;
+	display: -webkit-box;
+	display: -ms-flexbox;
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	-webkit-box-pack: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 
 }
 
@@ -197,4 +250,31 @@ li {
 	margin-top: 10px;
 	opacity: 0.8;
 	letter-spacing: 0.45px;
+}
+
+/*icons*/
+.fb-icon {
+	font-size: 30px;
+	color: blue;
+	-webkit-transition: all 0.7s linear;
+	-o-transition: all 0.7s linear;
+	transition: all 0.7s linear;
+}
+
+.insta-icon {
+	font-size: 30px;
+	color: orange;
+	-webkit-transition: all 0.7s linear;
+	-o-transition: all 0.7s linear;
+	transition: all 0.7s linear;
+}
+
+.fb-icon:hover {
+	color: purple;
+	font-size: 50px;
+}
+
+.insta-icon:hover {
+	color: red;
+	font-size: 50px;
 }
