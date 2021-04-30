@@ -154,19 +154,22 @@ li {
 	font-family: 'Lato', sans-serif;
 	color: #000000;
 	margin-top: 30px;
-	width: 570px;
+	/*width: 570px;
 	height: 50px;
-	margin-left: 355px;
+	margin-left: 355px;*/
+	text-align: center;
+
 }
 
 .text-section2 {
 	font-size: 16px;
 	font-family: 'Poppins', sans-serif;
 	color: #000000;
-	margin-top: 10px;
-	width: 771px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	/*width: 771px;
 	height: 71px;
-	margin-left: 150px;
+	margin-left: 150px;*/
 	letter-spacing: 0.16px;
 	opacity: 0.65;
 	text-align: center;
@@ -211,6 +214,7 @@ li {
 	    -ms-flex-pack: justify;
 	        justify-content: space-between;
 	margin-top: 30px;
+	margin-bottom: 40px;
 
 }
 
