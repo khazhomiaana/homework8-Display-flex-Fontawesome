@@ -10,10 +10,11 @@
 	background-image: url(../images/pic1.jpg);
 	position: relative;
 	height: 900px;
-	width: 1280px;
+	width: 100%;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+
 }
 
 .navigation {
@@ -67,7 +68,7 @@ li {
 .bg-block {
 	background-image: url(../images/pic2.jpg);
 	height: 601px;
-	width: 640px;
+	/*width: 640px;*/
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -76,13 +77,13 @@ li {
 	width: 50%;
 	background-color: #FFFFFF; 
 }
-.right-block {
+/*.right-block {
 	width: 640px;
 	height: 601px;
-}
+}*/
 .left-block {
-	width: 640px;
-	height: 601px;
+	/*width: 640px;
+	height: 601px;*/
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
